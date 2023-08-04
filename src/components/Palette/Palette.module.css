@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kosugi+Maru&family=Noto+Sans+JP:wght@500&display=swap');
+
+/* 親 */
+.container {
+  z-index: 0;
+  height: 100px;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  overflow: scroll;
+  overflow: hidden;
+  outline: none;
+  background-color: #E4E4E4;
+}
+.formlabel{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.tone {
+  margin-bottom: 10px;
+}
+
+.palette {
+  cursor: pointer;
+}
+.palette:hover {
+  filter: brightness(120%);
+  transition: 80ms; 
+}
+
+/* SP */
+@media screen and (max-width: 420px) {
+  .container {
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  .palette {
+    width: 40px;
+  }
+}
+/* PC */
+@media screen and (min-width: 421px) {
+  .container {
+    height: 80px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .palette {
+    width: 100px;
+  }
+}
+
+
+/* Palette Color */
+.red {
+  background-color: #D50000;
+}
+.orange {
+  background-color: #FF9800;
+}
+.yellow {
+  background-color: #FDD835;
+}
+.green {
+  background-color: #0D904F;
+}
+.blue {
+  background-color: #2A56C6;
+}
+.purple {
+  background-color: #9C27B0;
+}
+.pink {
+  background-color: #F48FB1;
+}
+.brown {
+  background-color: #795548;
+}
+.black {
+  background-color: #37474F;
+}
+.white {
+  background-color: #e2e2e2;
+}
+.silver{
+  background: linear-gradient(to right bottom, #ffffff 20%, #000);
+}
+.gold{
+  background: linear-gradient(to right bottom, #ffffff 10%, #ffbb28);
+}

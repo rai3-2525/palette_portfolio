@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kosugi+Maru&display=swap');
+
+.main {
+  padding: 90px 20px 40px 20px;
+  min-height: 500px;
+}
+
+.container {
+  max-width: 600px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-left: 20px;
+  font-family: 'Kosugi Maru', sans-serif;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+  
+.itemImg {
+  border-radius: 20px;
+  box-shadow: -1px -1px 2px #fff, 1px 2px 2px rgb(0 0 0 / 24%);
+}
+.spec {
+  min-width: 200px;
+  width: 250px;
+  color: #737373;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #fff0db;
+  padding-left: 35px;
+}
+/* .description {
+  margin-top: 30px;
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  background-color: #eeeeee;
+} */
+.gachaImg {
+  margin-top: 30px;
+
+  /* 画像仮置き */
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+
+/* SP */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 60px 0 60px 0;
+    display: flex; /* 親要素をフレックスボックスにする */
+    flex-direction: column; /* オプション: 子要素を縦方向に配置 */
+    align-items: center; /* 子要素を縦方向に中央寄せ */
+  }
+  .itemImg {
+    max-width: 200px;
+  }
+  .spec {
+    width: 260px;
+    margin-top: 60px;
+  }
+  .gachaImg {
+    margin-top: 30px;
+  }
+}

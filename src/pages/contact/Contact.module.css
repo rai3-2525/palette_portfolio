@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kosugi+Maru&display=swap');
+
+.main {
+  width: 100%;
+  min-height: 800px;
+  background-color: rgba(255, 237, 209, 0.386);
+  font-size: 20px;
+  color: #483326;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.desc {
+  margin: 0 10px;
+  border-radius: 20px;
+  width: 130vh;
+  padding: 30px 20px 0 20px;
+  background-color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+  .main {
+    font-size: 12px;
+  }
+
+}
