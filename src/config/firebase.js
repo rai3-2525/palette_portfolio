@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA9hiGVjQ9a0LoOugaU5HD6sCIqmPMSceY",
-  authDomain: "livly-palette.firebaseapp.com",
+  apiKey: "XXXXXXXXX",
+  authDomain: "XXXXXXXXX.firebaseapp.com",
   projectId: "livly-palette",
-  storageBucket: "livly-palette.appspot.com",
-  messagingSenderId: "617952136010",
-  appId: "1:617952136010:web:13bcc95d617b6e76eb8fb3"
+  storageBucket: "XXXXXXXXX.appspot.com",
+  messagingSenderId: "XXXXXXXXX",
+  appId: "1:XXXXXXXXX:web:XXXXXXXXX"
 };
 
 // Initialize Firebase
